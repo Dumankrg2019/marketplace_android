@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">marketplace_d</string>
+    <string name="app_name">Marketplace</string>
+    <string name="choose_role_title">
+        Выберите \nвариант
+    </string>
+    <string name="customer_title">
+        Покупатель
+    </string>
+    <string name="customer_description">
+        Присоединяйтесь и \nвперед за покупками
+    </string>
+    <string name="seller_title">
+        Продавец
+    </string>
+    <string name="seller_description">
+        Начни зарабатывать \nс нами
+    </string>
 </resources>
