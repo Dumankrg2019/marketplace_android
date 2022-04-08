@@ -58,6 +58,7 @@
         android:textSize="14sp"
         android:lineSpacingExtra="4sp"
         android:textColor="@color/black_text"
+        android:textStyle="normal"
         app:layout_constraintStart_toStartOf="@+id/iv_customer_block"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -105,6 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="5dp"
+        android:textStyle="normal"
         android:text="@string/seller_description"
         android:textSize="14sp"
         android:lineSpacingExtra="4sp"

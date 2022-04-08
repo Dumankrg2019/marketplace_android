@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_customer_block">
+
+    <ImageView
+        android:id="@+id/ivGood"
+        android:layout_width="133dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_good_item" />
+
+    <ImageView
+        android:id="@+id/ivLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivGood"
+        app:layout_constraintTop_toTopOf="@+id/ivGood"
+        app:srcCompat="@drawable/ic_like" />
+
+    <ImageView
+        android:id="@+id/ivDiscountBlock"
+        android:layout_width="35dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivGood"
+        app:layout_constraintStart_toStartOf="@+id/ivGood"
+        app:srcCompat="@drawable/rounded_discount_block" />
+
+    <TextView
+        android:id="@+id/tvDiscountTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineHeight="2sp"
+        android:text="-24%"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDiscountBlock"
+        app:layout_constraintEnd_toEndOf="@+id/ivDiscountBlock"
+        app:layout_constraintStart_toStartOf="@+id/ivDiscountBlock"
+        app:layout_constraintTop_toTopOf="@+id/ivDiscountBlock" />
+
+    <TextView
+        android:id="@+id/tvTitleOfGood"
+        style="@style/CustomerGoodTitle"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:text="TOM TAILOR / Джемпер"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGood" />
+
+    <TextView
+        android:id="@+id/tvPriceValue"
+        style="@style/CustomerGoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="12 990 ₸"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleOfGood"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleOfGood" />
+
+    <TextView
+        android:id="@+id/tvPriceWithoutDisc"
+        style="@style/CustomerGoodPriceWithoutDisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="17 990 ₸"
+        app:layout_constraintStart_toEndOf="@+id/tvPriceValue"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleOfGood" />
+</androidx.constraintlayout.widget.ConstraintLayout>

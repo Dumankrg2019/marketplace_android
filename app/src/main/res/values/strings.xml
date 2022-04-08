@@ -15,4 +15,11 @@
     <string name="seller_description">
         Начни зарабатывать \nс нами
     </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searchTitle">Товар или магазин</string>
+    <string name="clothes">Одежда</string>
+    <string name="eat">Еда</string>
+    <string name="avtogoods">Автотовары</string>
+    <string name="pharmacy">Аптека</string>
+    <string name="error_text">Ошибка загрузки</string>
 </resources>

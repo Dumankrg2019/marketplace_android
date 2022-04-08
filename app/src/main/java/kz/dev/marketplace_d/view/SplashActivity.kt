@@ -1,4 +1,4 @@
-package kz.dev.marketplace_d.ui
+package kz.dev.marketplace_d.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.os.Looper
 import kz.dev.marketplace_d.MainActivity
 import kz.dev.marketplace_d.R
-import java.util.logging.Handler
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

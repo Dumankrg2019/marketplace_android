@@ -10,4 +10,8 @@
     <color name="blue_splash">#3568FF</color>
     <color name="black_text">#2B2D33</color>
     <color name="background_screens">#F6F6FC</color>
+    <color name="black_text_customer">#0C1A30</color>
+    <color name="black_text_customer_title">#2B2D33</color>
+    <color name="blue_text_customer_price">#3568FF</color>
+    <color name="grey_text_customer_priceWithoutDisc">#9098B1</color>
 </resources>
