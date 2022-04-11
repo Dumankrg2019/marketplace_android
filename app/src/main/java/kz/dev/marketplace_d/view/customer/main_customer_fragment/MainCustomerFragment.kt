@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import kz.dev.marketplace_d.databinding.FragmentMainCustomerBinding
 import kz.dev.marketplace_d.viewmodel.GoodsViewModel
@@ -37,7 +38,7 @@ class MainCustomerFragment : Fragment() {
         viewModel.refresh()
 
         binding.rvGoods.apply {
-            layoutManager = LinearLayoutManager(context)
+            layoutManager = GridLayoutManager(context, 2)
             adapter = goodAdapter
         }
         observeViewModel()

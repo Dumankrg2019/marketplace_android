@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer_nav"
+    app:startDestination="@id/mainCustomerFragment">
+
+    <fragment
+        android:id="@+id/mainCustomerFragment"
+        android:name="kz.dev.marketplace_d.view.customer.main_customer_fragment.MainCustomerFragment"
+        android:label="fragment_main_customer"
+        tools:layout="@layout/fragment_main_customer" />
+    <fragment
+        android:id="@+id/favoriteGoodsFragment"
+        android:name="kz.dev.marketplace_d.view.customer.main_customer_fragment.FavoriteGoodsFragment"
+        android:label="fragment_favorite_goods"
+        tools:layout="@layout/fragment_favorite_goods" />
+</navigation>

@@ -6,6 +6,6 @@ data class Good (
     val original_price: String?,
     val discount_percent: String?,
     val price: String?,
-    val images: List<String>?
+    val images: ArrayList<Img>?
         )
 

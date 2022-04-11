@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ripple_customer_block">
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/ripple_customer_block"
+    android:paddingStart="13dp"
+    android:paddingEnd="13dp">
 
     <ImageView
         android:id="@+id/ivGood"

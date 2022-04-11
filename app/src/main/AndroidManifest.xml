@@ -6,15 +6,16 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Marketplace_d"
+        android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".view.customer.CustomerHomeActivity"></activity>
+        <activity android:name=".view.customer.main_customer_fragment.CustomerMainActivity"></activity>
+        <activity android:name=".view.customer.CustomerHomeActivity" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".view.SplashActivity"

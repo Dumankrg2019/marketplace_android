@@ -33,7 +33,7 @@ class GoodsMainAdapter(var goods: ArrayList<Good>):
             tvPriceWithoutDisc.text = good.original_price
 
             Glide.with(itemView)
-                .load(good.images?.get(0))
+                .load(good.images?.get(0)?.medium)
                 .centerCrop()
                 .into(imageViewGood)
 
